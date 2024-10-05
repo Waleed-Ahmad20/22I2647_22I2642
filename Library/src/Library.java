@@ -12,4 +12,9 @@ public class Library {
 	public void listBooks() {
 		System.out.println("Books in library: " + books);
 	}
+	
+	public boolean searchBook(String bookName) {
+	       return books.contains(bookName);
+	   }
+
 }
